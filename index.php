@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<!--header-->
-
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+<?php require_once "includes_index/head1.php" ?>
     <title>WebCMS</title>
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
     <link href="admin/css/styles.css" rel="stylesheet" />
@@ -32,7 +22,7 @@
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="/index.php">Accueil <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="index.php">Accueil <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#">contact</a>
                 <a class="nav-item nav-link" href="#">blog</a>
             </div>
@@ -76,7 +66,7 @@
 
                 <!-- First Blog Post -->
                 <h2>
-                    <a href="#">Blog Post Title</a>
+                    <a href="../views_index/post.php">Blog Post Title</a>
                 </h2>
                 <p class="lead">
                     by <a href="index.php">Start Bootstrap</a>
@@ -95,7 +85,7 @@
 
                 <!-- Second Blog Post -->
                 <h2>
-                    <a href="#">Blog Post Title</a>
+                    <a href="../views_index/post.php">Blog Post Title</a>
                 </h2>
                 <p class="lead">
                     by <a href="index.php">Start Bootstrap</a>
@@ -114,7 +104,7 @@
 
                 <!-- Third Blog Post -->
                 <h2>
-                    <a href="#">Blog Post Title</a>
+                    <a href="../views_index/post.php">Blog Post Title</a>
                 </h2>
                 <p class="lead">
                     by <a href="index.php">Start Bootstrap</a>
@@ -143,69 +133,8 @@
 
             </div>
 
+<?php require_once "includes_index/droite_index.php" ?>
 
-            <!-- Blog Sidebar Widgets Column -->
-            <div class="col-md-4">
-
-                <!-- Blog Search Well -->
-                <div class="well">
-                    <h4>Blog Search</h4>
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </button>
-                        </span>
-                    </div>
-                    <!-- /.input-group -->
-                </div>
-
-                <!-- Blog Categories Well -->
-                <div class="well">
-                    <h4>Blog Categories</h4>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.col-lg-6 -->
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.col-lg-6 -->
-                    </div>
-                    <!-- /.row -->
-                </div>
-
-                <!-- Side Widget Well -->
-                <div class="well">
-                    <h4>Side Widget Well</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci
-                        accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- /.row -->
 
         <hr>
 
